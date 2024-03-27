@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply ease-in-out duration-1000 transition pt-12 bg-gray-100 text-gray-800;
+}
+
+.buttonBgColor{
+  @apply  hover:text-black bg-primaryYellow font-bold rounded-md
+}
