@@ -20,7 +20,6 @@ export const Signup = () => {
     if (formData.accountNumber.length == 10) {
       setActiveOTP(true);
       setFormMessage("We have sent an OTP to your registered phone number");
-      console.log("worksdd");
     } else {
       setActiveOTP(false);
     }
@@ -64,7 +63,7 @@ export const Signup = () => {
           onSubmit={onSignup}
           className=" bg-white shadow-md rounded-md px-4 border w-[80%] md:w-[50%] lg:w-[30%] pb-8  "
         >
-          <p className=" font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4">
+          <p className=" font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4 -mt-2">
             Signup
           </p>
           <div className=" flex flex-col gap-6 mt-8">

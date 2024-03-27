@@ -16,7 +16,7 @@ export const Login = () => {
           onSubmit={onLogin}
           className=" bg-white shadow-md rounded-md px-4 border w-[80%] md:w-[50%] lg:w-[30%] pb-8  "
         >
-          <p className=" font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4">
+          <p className=" font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4 -mt-2">
             Login
           </p>
           {/* form details */}

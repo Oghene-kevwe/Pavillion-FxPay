@@ -16,12 +16,12 @@ export const AccountDetails = () => {
 
   return (
     <section className=" px-[2vw] md:p-16">
-      <div className=" bg-white px-8 pb-8 md:w-[70%] max-w-[460px]  mx-auto shadow-md">
-        <p className=" mb-8  font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4">
+      <div className=" bg-white px-8 pb-8 md:w-[70%] max-w-[460px]  mx-auto shadow-md pt-4">
+        <p className="   font-bold bg-primaryYellow text-white text-center text-xl rounded-md py-4  -mt-6  ">
           Account Details
         </p>
         {/* content */}
-        <div className=" flex flex-col gap-6">
+        <div className=" flex flex-col gap-6 mt-8">
           {accountDetailsData.map(({ detail, id, title }) => (
             <article key={id}>
               <div className=" flex gap-x-2">
