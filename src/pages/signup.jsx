@@ -79,7 +79,7 @@ export const Signup = () => {
                   name="accountNumber"
                   type="text"
                   className=" pl-2 h-full w-full outline outline-1 outline-gray-300 rounded-sm focus:outline-primaryYellow placeholder:text-sm "
-                  placeholder="Enter Your Providus Account Number"
+                  placeholder="Enter Your Providus Naira Account Number"
                 />
               </div>
             </div>
@@ -129,23 +129,33 @@ export const Signup = () => {
             onClick={() => navigate("/account-details")}
             className=" shadow-md buttonBgColor text-white mt-16 mx-auto py-4 w-full"
           >
-            Signup
+            Continue
           </button>
           {/* Signup link */}
-          <div className=" mt-8">
-            <p className=" text-sm">
+          <div className=" mt-8 text-sm">
+            {/* individual account */}
+            <p className=" mb-2 ">
               Don't have a Providus account ?{" "}
               <Link
                 to={
-                  "https://oap.providusbank.com/rmcorporateaccount/#/createaccount/createaccount"
+                  "https://oap.providusbank.com/rmaccountopening/#/4a14917cf669cb3974f1458cf9becc348806694c9a9fe370d4c207d04bf2fdcbbe6c02325846e85f1a29ea66cbb4e36a"
                 }
-                className=" font-bold text-primaryYellow"
+                className=" font-bold text-primaryYellow hover:text-black"
                 target="_blank"
               >
-                click here
+                click here to open an individual account.
               </Link>{" "}
-              to open an account.
             </p>
+            {/* coporate account */}
+            <Link
+              to={
+                "https://oap.providusbank.com/rmcorporateaccount/#/createaccount/createaccount"
+              }
+              className=" font-bold text-primaryYellow hover:text-black"
+              target="_blank"
+            >
+              click here to open a coporate account.
+            </Link>{" "}
           </div>
         </form>
       </div>
