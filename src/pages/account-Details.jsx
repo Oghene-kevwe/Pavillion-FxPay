@@ -4,7 +4,7 @@ import { useState } from "react";
 export const AccountDetails = () => {
   const accountDetailsData = [
     { id: 0, title: "Account Name", detail: "Oliver Johnson" },
-    { id: 1, title: "Account Number", detail: "01234567" },
+    { id: 1, title: "Account Number", detail: "0246723867" },
     { id: 2, title: "Phone Number", detail: "+234 814 9857 897" },
     { id: 3, title: "Email", detail: "oliverjohnson@gmail.com" },
   ];
@@ -14,12 +14,12 @@ export const AccountDetails = () => {
     {
       id: 0,
       AccountName: "Oliver Johnson ",
-      AccountNumber: "01234567",
+      AccountNumber: "XXXXXX5418",
     },
     {
       id: 1,
       AccountName: "Oliver Johnson ",
-      AccountNumber: "04234567",
+      AccountNumber: "XXXXXX8763",
     },
   ];
 
