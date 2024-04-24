@@ -20,14 +20,14 @@ export const Dashboard = () => {
   // check for auth code length
   useEffect(() => {
     if (AuthValue.length == 5) {
-      setAuthValue("")
+      setAuthValue("");
       setShowCardDetails(true);
       setCardDetails({
         ...cardDetails,
         cardNumber: "12982786547783",
         expiryDate: "12/26",
       });
-      setShowAuthInput(false)
+      setShowAuthInput(false);
     }
   }, [AuthValue]);
 
@@ -74,6 +74,7 @@ export const Dashboard = () => {
 
         {/* show more details button */}
         <button
+          disabled={showcardDetails ? true : false}
           onClick={() => setShowAuthInput(true)}
           className=" shadow-md buttonBgColor text-white mt-8 mx-auto block w-[50%] py-4"
         >
