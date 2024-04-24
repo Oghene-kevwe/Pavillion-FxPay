@@ -27,6 +27,7 @@ export const Dashboard = () => {
         cardNumber: "12982786547783",
         expiryDate: "12/26",
       });
+      setShowAuthInput(false)
     }
   }, [AuthValue]);
 
